@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Logger.init(TAG);
         Logger.d("zhanglong","--->onCreate()");
+        Logger.e("zhanglong","--->error()");
     }
 }
